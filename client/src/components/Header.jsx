@@ -3,7 +3,7 @@ import { Link , useLocation} from "react-router-dom";
 import { AiOutlineSearch} from 'react-icons/ai';
 import { FaMoon} from 'react-icons/fa';
 export default  function Header(){
-    const path = useloaction().pathname;
+    const path = useLocation().pathname;
     return (
         <Navbar className ='border-b-2'>
           <Link to ="/" className='self-center whitespace-nowrap text-sm 
